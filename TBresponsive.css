@@ -1,0 +1,28 @@
+.tablepress thead {
+    display: none;
+    font-size: 18px;
+}
+
+.tablepress td {
+    display:block;
+    font-size: 14px;
+}
+
+.tablepress tr td:first-child {
+    display:none;
+}
+
+.tablepress tr:before {
+    content: attr(data-tr);
+    display: block;
+    color:#9e9d9d;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tablepress td:before {
+    content: attr(data-th);
+    display: block;
+    color:#9e9d9d;
+
+}
